@@ -30,11 +30,12 @@ public class Proyecto {
                 while ((line=br.readLine()) != null) {
                     System.out.println(line);
                 }
+            } else {
+                String line;
+                System.out.println("El proceso finalizo de forma incorrecta");
                 while ((line=br2.readLine()) != null) {
                     System.out.println(line);
                 }
-            } else {
-                System.out.println("El proceso finalizo de forma incorrecta");
             }
             br.close();
             br2.close();
